@@ -47,7 +47,7 @@ function generateRandomPhoto() {
 
 function checkCorrectCombination() {
     const correctCombination = correctCombinations[currentPhoto];
-    if (correctCombination.every((id) => clickedButtons.includes(id))) {
+    if (clickedButtons.length === correctCombination.length && correctCombination.every((id) => clickedButtons.includes(id))) {
         const randomResponseIndex = Math.floor(Math.random() * correctResponses.length);
         responseElement.textContent = correctResponses[randomResponseIndex];
         correctCount++;
