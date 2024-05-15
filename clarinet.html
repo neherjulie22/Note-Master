@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">  
+    <header id="header"></header>
+</head>
+<body>
+  <div class="photoContainer">
+    <img src="Clarinet Fingering Photos.jpg" alt="Clarinet" class="Clarinet" width="195px">
+    <div class="buttons">
+        <button class="LT" id="LT"></button>
+        <button class="Reg" id="Reg"></button>
+        <button class="A" id="A"></button>
+        <button class="AFlat" id="AFlat"></button>
+        <button class="L1" id="L1"></button>
+        <button class="L2" id="L2"></button>
+        <button class="L3" id="L3"></button>
+        <button class="LEFlat" id="LEFlat"></button>
+        <button class="LowCSharp" id="LowCSharp"></button>
+        <button class="R1" id="R1"></button>
+        <button class="R2" id="R2"></button>
+        <button class="R3" id="R3"></button>
+        <button class="LB" id="LB"></button>
+        <button class="LC" id="LC"></button>
+        <button class="LCSharp" id="LCSharp"></button>
+        <button class="EFlat" id="EFlat"></button>
+        <button class="RC" id="RC"></button>
+        <button class="RCSharp" id="RCSharp"></button>
+        <button class="RB" id="RB"></button>
+        <button class="Side1" id="Side1"></button>
+        <button class="Side2" id="Side2"></button>
+    </div>
+</div>
+
+<div class="container">
+    <img id="randomPhoto" src="default.png" alt="Random Photo">
+</div>
+
+<div class="submit">
+    <button id="combinedButton">Submit</button>
+</div>
+
+<div class="p99">
+    <p99 id="response"></p99>
+</div>
+
+<div class="p0">
+    <p0 id="score"></p0>
+</div>
+
+<script src="script/script.js"></script>
+
+  <script>
+    const header = document.getElementById("header");
+    fetch("header.html")
+      .then((response) => response.text())
+      .then((data) => {
+        header.innerHTML = data;
+      });
+      </script>
+
+</body>
+</html>
