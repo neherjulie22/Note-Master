@@ -1,0 +1,457 @@
+.photoContainer {
+    position: absolute;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 400px;
+    border: 5px solid #959d90;
+    padding: 0px 80px;
+}
+
+
+.buttons {
+    position: absolute;
+    display: inline-flex;
+}
+
+.container {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin-left: 800px;
+    margin-top: 150px;
+    width: 300px;
+    height: 200px;
+    border: 5px solid #959d90;
+}
+
+
+#randomPhoto {
+    max-width: 100%;
+    height: 100;
+    margin-bottom: 20px;
+}
+
+
+.submit {
+    position: absolute;
+    display: inline-block;
+    margin-left: 430px;
+    margin-top: 250px;
+    background-color: white;
+    border: 3px solid #959d90;
+}
+
+
+#combinedButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #959d90;
+    cursor: pointer;
+}
+
+
+#combinedButton:hover {
+    background-color: #3c5759;
+}
+
+
+.p0 {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    top: 500px;
+    left: 795px;
+    width: 300px;
+    padding: 10px 20px;
+    border: 5px solid #959d90;
+}
+
+.p99 {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    font-size: 36px;
+    top: 200px;
+    left: 812px;
+    width: 300px;
+}
+
+
+.LT {
+    position: absolute;
+    margin-left: -165.5px;
+    margin-top: 140.5px;
+    background-color: transparent;
+    width: 14px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.LT.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.Reg {
+    position: absolute;
+    margin-left: -162px;
+    margin-top: 108px;
+    background-color: transparent;
+    width: 14px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.Reg.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.A {
+    position: absolute;
+    margin-left: -61.5px;
+    margin-top: 118px;
+    background-color: transparent;
+    width: 14px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.A.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.AFlat {
+    position: absolute;
+    margin-left: -31px;
+    margin-top: 130px;
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.AFlat.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.L1 {
+    position: absolute;
+    margin-left: -61px;
+    margin-top: 141px;
+    background-color: transparent;
+    width: 14px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.L1.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.L2 {
+    position: absolute;
+    margin-left: -61px;
+    margin-top: 193px;
+    background-color: transparent;
+    width: 14px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.L2.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.L3 {
+    position: absolute;
+    margin-left: -57px;
+    margin-top: 230.5px;
+    background-color: transparent;
+    width: 14px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.L3.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.LEFlat {
+    position: absolute;
+    margin-left: -59px;
+    margin-top: 214px;
+    background-color: transparent;
+    width: 2px;
+    height: 6px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.LEFlat.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.LowCSharp {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 250px;
+    background-color: transparent;
+    width: 2px;
+    height: 6px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.LowCSharp.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.R1 {
+    position: absolute;
+    margin-left: -59.5px;
+    margin-top: 318px;
+    background-color: transparent;
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.R1.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.R2 {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 359px;
+    background-color: transparent;
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.R2.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.R3 {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 396px;
+    background-color: transparent;
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.R3.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.LB {
+    position: absolute;
+    margin-left: -24.5px;
+    margin-top: 274px;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.LB.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.LC {
+    position: absolute;
+    margin-left: -16px;
+    margin-top: 262px;
+    background-color: transparent;
+    width: 6px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.LC.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.LCSharp {
+    position: absolute;
+    margin-left: -12px;
+    margin-top: 280px;
+    background-color: transparent;
+    width: 6px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.LCSharp.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.EFlat {
+    position: absolute;
+    margin-left: -74px;
+    margin-top: 426.5px;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.EFlat.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.RC {
+    position: absolute;
+    margin-left: -78px;
+    margin-top: 447px;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.RC.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.RCSharp {
+    position: absolute;
+    margin-left: -93px;
+    margin-top: 423.5px;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.RCSharp.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.RB {
+    position: absolute;
+    margin-left: -98px;
+    margin-top: 447px;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.RB.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.Side1 {
+    position: absolute;
+    margin-left: -102px;
+    margin-top: 290px;
+    background-color: transparent;
+    width: 2px;
+    height: 6px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.Side1.clicked {
+    background-color: #d1ebdb;
+}
+
+
+.Side2 {
+    position: absolute;
+    margin-left: -105px;
+    margin-top: 273px;
+    background-color: transparent;
+    width: 2px;
+    height: 6px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+.Side2.clicked {
+    background-color: #d1ebdb;
+}

@@ -1,0 +1,124 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: #3c5759;
+}
+
+.logo {
+  font-size: 36px;
+  color: #efece9;
+  margin-left: 50px;
+  width: 200px;
+}
+
+nav.menu {
+  font-size: 20px;
+  color: #efece9;
+  margin-left: 800px;
+}
+
+nav.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav.menu ul li {
+  display: inline-block;
+  position: relative; /* Add this property */
+  margin-left: 50px;
+}
+
+nav.menu ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 120%;
+  background-color: #3c5759;
+}
+
+nav.menu ul li:hover ul {
+  display: block;
+}
+
+nav.menu ul li a {
+  display: block;
+  padding: 2px;
+  color: #efece9;
+  text-decoration: none;
+  min-width: 100%; /* Add this property */
+}
+
+nav.menu ul li:hover {
+  background-color: #d1ebdb; /* Add this selector */
+}
+
+nav.menu ul li a:hover {
+  color: #192524;
+}
+
+.woodwinds {
+  position: relative;
+}
+
+.woodwinds:hover ul {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #3c5759;
+}
+
+.woodwinds:hover ul li {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+  border-bottom: 1px solid #192524;
+}
+
+.woodwinds:hover ul li a {
+  display: block;
+  color: #efece9;
+  text-decoration: none;
+}
+
+.woodwinds:hover ul li a:hover {
+  background-color: #d1ebdb;
+  color: #192524;
+}
+
+.woodwinds:hover a {
+  color: #192524;
+}
+
+.box {
+  border: 2px solid #fff;
+  padding: 15px;
+  margin: 5px;
+  height: 200%;
+}
+
+p {
+  font-size: 64px;
+  font-weight: bold;
+  color: #3c5759;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 40px;
+}
+
+#p1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #3c5759;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 40px;
+}
